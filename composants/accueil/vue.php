@@ -16,7 +16,7 @@
 <!-- Contenu principal centré -->
 <main class="flex-fill d-flex align-items-center justify-content-center">
     <div class="text-center">
-        <h1 class="mb-4">👋BIENVENUE A << KHASSIDA BAMBA ! >> Dieuredieuf serigne Touba</h1>
+        <h1 class="mb-4">👋BIENVENUE A << KHASSIDA BAMBA ! >> Dieuredieuf serigne Touba serigne saliou mbacke</h1>
         <a href="?page=produits" class="btn btn-primary btn-lg">Voir les Khassaides</a>
     </div>
 
