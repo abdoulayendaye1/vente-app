@@ -1,4 +1,8 @@
 <?php
+require_once 'classes/Lang.php';
+
+$lang = $_GET['lang'] ?? 'fr'; // fr par défaut
+Lang::load($lang);
 
 $chemins = require_once __DIR__ . '/configuration/chemins_composants.php';
 
