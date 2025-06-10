@@ -1,3 +1,5 @@
+<?php require_once __DIR__ . '/../../includes/bootstrap.php';
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -8,7 +10,9 @@
 </head>
 <body class="bg-light p-4">
 
-<?php include __DIR__ . '/../../includes/menu.php'; ?>
+<?php include __DIR__ . '/../../includes/menu.php';
+
+?>
 
 <div class="container">
     <h2 class="mb-4">🛒 Mon Panier</h2>
