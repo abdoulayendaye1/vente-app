@@ -1,5 +1,8 @@
 <?php
-session_start();
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
 
 // Si une langue est passée dans l'URL, on la sauvegarde en session
 if (isset($_GET['lang'])) {
