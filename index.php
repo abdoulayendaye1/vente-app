@@ -1,4 +1,7 @@
 <?php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
 require_once 'classes/Lang.php';
 
 $lang = $_GET['lang'] ?? 'fr'; // fr par défaut
